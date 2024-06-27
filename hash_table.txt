@@ -1,0 +1,80 @@
+find 10 success
+bucket[1]:	12	
+bucket[4]:	1	
+bucket[6]:	9	
+bucket[9]:	2	
+bucket[11]:	10	
+bucket[12]:	7	
+bucket[13]:	18	
+bucket[17]:	0	
+bucket[19]:	8	
+bucket[20]:	5	
+bucket[21]:	16	
+bucket[25]:	6	3	
+bucket[27]:	14	
+bucket[28]:	4	
+After clear:
+equal_range(4):
+4 4 After erase 4:
+bucket[1]:	12	
+bucket[4]:	1	
+bucket[6]:	9	
+bucket[9]:	2	2	
+bucket[11]:	10	
+bucket[12]:	7	
+bucket[13]:	18	
+bucket[17]:	0	0	
+bucket[19]:	8	8	
+bucket[20]:	5	
+bucket[21]:	16	
+bucket[25]:	6	6	3	
+bucket[27]:	14	
+Re_insert_equal 20 elements:
+bucket[1]:	0	0	0	0	0	
+bucket[3]:	19	
+bucket[4]:	4	14	
+bucket[7]:	2	2	2	2	2	2	
+bucket[10]:	8	
+bucket[13]:	12	
+bucket[16]:	10	
+bucket[19]:	16	
+bucket[20]:	5	
+bucket[25]:	18	
+bucket[26]:	7	
+bucket[29]:	13	
+bucket[32]:	1	1	1	1	1	1	1	
+bucket[35]:	15	
+bucket[38]:	3	3	3	3	3	3	
+bucket[41]:	9	
+bucket[47]:	11	
+bucket[48]:	6	
+bucket[50]:	17	
+After erase 3:
+bucket[1]:	0	0	0	0	0	
+bucket[3]:	19	
+bucket[4]:	4	14	
+bucket[7]:	2	2	2	2	2	2	
+bucket[10]:	8	
+bucket[13]:	12	
+bucket[16]:	10	
+bucket[19]:	16	
+bucket[20]:	5	
+bucket[25]:	18	
+bucket[26]:	7	
+bucket[29]:	13	
+bucket[32]:	1	1	1	1	1	1	1	
+bucket[35]:	15	
+bucket[41]:	9	
+bucket[47]:	11	
+bucket[48]:	6	
+bucket[50]:	17	
+After erase_if key % 2 == 0,deleted num is:19
+bucket[3]:	19	
+bucket[20]:	5	
+bucket[26]:	7	
+bucket[29]:	13	
+bucket[32]:	1	1	1	1	1	1	1	
+bucket[35]:	15	
+bucket[41]:	9	
+bucket[47]:	11	
+bucket[50]:	17	
